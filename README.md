@@ -1,1 +1,34 @@
 # CS2-conf
+
+alias "+switch" "slot3"
+alias "-switch" "lastinv"
+bind "mouse4" "+switch"
+
+bind "mwheelup" +jump
+
+bind "mouse5" +voicerecord
+
+cl_crosshair_drawoutline 1
+cl_crosshair_dynamic_maxdist_splitratio 0.35
+cl_crosshair_dynamic_splitalpha_innermod 1
+cl_crosshair_dynamic_splitalpha_outermod 0.5
+cl_crosshair_dynamic_splitdist 7
+cl_crosshair_outlinethickness 1
+cl_crosshairalpha 999
+cl_crosshaircolor 2
+cl_crosshaircolor_b 0
+cl_crosshaircolor_g 0
+cl_crosshaircolor_r 250
+cl_crosshairdot 0
+cl_crosshairgap -2
+cl_crosshairgap_useweaponvalue 0
+cl_crosshairscale 600
+cl_crosshairsize 3
+cl_crosshairstyle 4
+cl_crosshairthickness 0
+cl_crosshairusealpha 1
+cl_fixedcrosshairgap -7
+sensitivity 1.6
+net_graph 1
+
+host_writeconfig
