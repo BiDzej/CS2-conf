@@ -1,5 +1,6 @@
 # CS2-conf
 
+```
 alias "+switch" "slot3"
 alias "-switch" "lastinv"
 bind "mouse4" "+switch"
@@ -32,3 +33,4 @@ sensitivity 1.6
 net_graph 1
 
 host_writeconfig
+```
